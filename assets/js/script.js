@@ -1,0 +1,9 @@
+$(function(){
+    $('#thirdText').addClass('hide');
+        $('.cacher').click(function(){
+            $('.hide').hide();
+        })
+        $('.afficher').click(function(){
+            $('.hide').show();
+        })
+});
